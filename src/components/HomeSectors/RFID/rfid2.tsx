@@ -57,10 +57,10 @@ ScratchNest RFID Device.
   <div className="b1">
 <Link to="/sector/rfid">
                             
-<button className="btn btn-outline-primary" id="btn1"> Explore now  </button>
+<button className="btn btn-outline-primary" id="btn1" data-aos="zoom-out"> Explore now  </button>
 
 </Link>
-<button className="btn btn-outline-primary" id="btn2">  Get Brochure </button>
+<button className="btn btn-outline-primary" id="btn2" data-aos="zoom-out">  Get Brochure </button>
 </div>
 </div>
 
@@ -86,10 +86,10 @@ ScratchNest RFID Device.
   <div className="b2">
   <Link to="/sector/rfid">
                             
-                            <button className="btn btn-outline-primary" id="btn1"> Explore now  </button>
+                            <button className="btn btn-outline-primary" id="btn1" data-aos="zoom-out"> Explore now  </button>
                             
                             </Link>
-                            <button className="btn btn-outline-primary" id="btn2">  Get Brochure </button>
+                            <button className="btn btn-outline-primary" id="btn2" data-aos="zoom-out">  Get Brochure </button>
                             
   </div>
 </div>

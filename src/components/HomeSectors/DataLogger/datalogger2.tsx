@@ -49,9 +49,9 @@ Data Loggers from ScratchNest.
   <div id="btn1">
 <Link to="/sector/datalogger">
                         
-<button className="btn btn-outline-primary" id="button1"> Explore now  </button>
+<button className="btn btn-outline-primary" id="button1" data-aos="zoom-out"> Explore now  </button>
 </Link>
-<button className="btn btn-outline-primary" id="button2">Get Brochure</button>
+<button className="btn btn-outline-primary" id="button2" data-aos="zoom-out">Get Brochure</button>
 </div>
 </div>
 
@@ -78,9 +78,9 @@ Data Loggers from ScratchNest.
   <div id="btn2">
 <Link to="/sector/datalogger">
                         
-<button className="btn btn-outline-primary" id="button1"> Explore now  </button>
+<button className="btn btn-outline-primary" id="button1" data-aos="zoom-out"> Explore now  </button>
 </Link>
-<button className="btn btn-outline-primary" id="button2">Get Brochure</button>
+<button className="btn btn-outline-primary" id="button2" data-aos="zoom-out"> Get Brochure</button>
 </div>
 </div>
 </div>
