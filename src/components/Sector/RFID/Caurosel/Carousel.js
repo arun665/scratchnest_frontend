@@ -6,7 +6,7 @@ import img1 from './img1.png';
 import img2 from './img2.png';
 import img3 from './img3.png';
 import Swinger from '../swiper/swiper';
-
+import Swiper2 from '../swiper2/swiper';
 const fadeImages = [
   "https://res.cloudinary.com/dpysmqax5/image/upload/v1619647956/5_dwtxbb.png",
   "https://res.cloudinary.com/dpysmqax5/image/upload/v1619647960/4_uabjrd.png",
@@ -182,7 +182,7 @@ dummy text ever since the 1500.</p>
 
 <div id="demo2" class="carousel slide carouselphone" data-ride="carousel">
 
-  
+{/*  
   <ul class="carousel-indicators">
     <li data-target="#demo2" data-slide-to="0" class="active"></li>
     <li data-target="#demo2" data-slide-to="1"></li>
@@ -269,7 +269,8 @@ dummy text ever since the 1500.</p>
   <a class="carousel-control-next" href="#demo2" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
-
+*/}
+<Swiper2/>
 </div>
 
 

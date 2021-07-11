@@ -11,6 +11,7 @@ import Integrated from './Integrated/Integrated';
 import Carousel2 from './Caurosel/Carousel.js';
 import Footer from "../../Footer/footer2";
 import Swiper from './swiper/swiper';
+
 function RfidSec(){
   
     useEffect(() => {
