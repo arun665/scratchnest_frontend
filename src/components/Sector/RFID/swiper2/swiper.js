@@ -118,7 +118,7 @@ dummy text ever since the 1500.</p>
  
   </Swiper>
   <br></br>
-  <p id="p"> Slide Right >>> </p>
+  <p id="p"> Slide Right  </p>
       
   </div>
     </>
