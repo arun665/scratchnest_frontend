@@ -270,6 +270,7 @@ dummy text ever since the 1500.</p>
     <span class="carousel-control-next-icon"></span>
   </a>
 */}
+
 <Swiper2/>
 </div>
 

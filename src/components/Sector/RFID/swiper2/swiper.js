@@ -30,6 +30,7 @@ SwiperCore.use([EffectCube,Pagination]);
   return (
     <>
     <div id="swiper2">
+      
     <Swiper effect={'cube'} grabCursor={true} cubeEffect={{
   "shadow": true,
   "slideShadows": true,
@@ -116,6 +117,9 @@ dummy text ever since the 1500.</p>
  
  
   </Swiper>
+  <br></br>
+  <p id="p"> Slide Right >>> </p>
+      
   </div>
     </>
   )

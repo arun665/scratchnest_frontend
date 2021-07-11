@@ -371,7 +371,8 @@
                 font-weight:bolder;
                 background-color: white;
                 border-radius:10px;
-                font-size:1em;
+                font-size:0.8em;
+
                 float:left;
                 color:black;
                 padding-top:5%;
@@ -393,9 +394,10 @@
             margin-top:0px;
             background-image: linear-gradient(to bottom right, #d3d3d3, rgba(235, 231, 231, 0));
             background-image: linear-gradient(to bottom right,black, rgba(110, 110, 110, 0.26));
+            height: 80vh;;
         
           border:2px solid white;
-            height: 50vh;;
+            height: 55vh;;
         margin-left:5%;
         
         #img1rfid{
@@ -436,6 +438,7 @@
                 padding-bottom:5%;
                 padding-left:5%;
                 padding-right:5%;
+                font-size:0.8em;
                 
         
             }
