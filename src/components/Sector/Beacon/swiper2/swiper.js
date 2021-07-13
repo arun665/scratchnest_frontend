@@ -4,63 +4,41 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import img2 from './img2.png';
 import img3 from './img3.png';
+import img1 from './img1.png';
 
 // Import Swiper styles
 import "swiper/swiper.min.css";
+import "swiper/components/effect-cube/effect-cube.min.css"
 import "swiper/components/pagination/pagination.min.css"
-import "swiper/components/navigation/navigation.min.css"
 
-import "./styles.scss";
-import img1 from './img1.png';
+import "./style.scss";
 
 
 // import Swiper core and required modules
 import SwiperCore, {
-  Pagination,Navigation
+  EffectCube,Pagination
 } from 'swiper/core';
 
 // install Swiper modules
-SwiperCore.use([Pagination,Navigation]);
+SwiperCore.use([EffectCube,Pagination]);
 
 
-function Swipers() {
+ function Swiper2() {
   
   
-  
-  const [swiperRef, setSwiperRef] = useState(null);
-
-  let appendNumber = 4;
-  let prependNumber = 1;
-
-  const prepend2 = () => {
-    swiperRef.prependSlide([
-      '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
-      '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
-    ]);
-  }
-
-  const prepend = () => {
-    swiperRef.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
-  }
-
-  const append = () => {
-    swiperRef.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
-  }
-
-  const append2 = () => {
-    swiperRef.appendSlide([
-      '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
-      '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
-    ]);
-  }
   
   return (
     <>
-    <div id="swiper">
-  <Swiper onSwiper={setSwiperRef} slidesPerView={3} centeredSlides={true} spaceBetween={20} pagination={{
-  "type": "fraction"
-}} navigation={true} className="mySwiper">
-    <SwiperSlide>
+    <div id="swiper2">
+      
+    <Swiper effect={'cube'} grabCursor={true} cubeEffect={{
+  "shadow": true,
+  "slideShadows": true,
+  "shadowOffset": 20,
+  "shadowScale": 0.94
+}} pagination={true} className="mySwiper">
+ 
+  <SwiperSlide>
 
     <div class="card">
   <div >       <img src={img1} alt="Los Angeles" id="img"/>
@@ -136,12 +114,17 @@ dummy text ever since the 1500.</p>
 
     </SwiperSlide>
     
+ 
+ 
   </Swiper>
-</div>
-  
+  <br></br>
+  <p id="p"> Slide Right  </p>
+      
+  </div>
     </>
   )
 }
 
 
-export default Swipers;
+
+export default Swiper2;

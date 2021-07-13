@@ -1,5 +1,5 @@
 @media screen and(min-width:996px){
-#rfidSec{
+#Beacon_Sec{
 
     .div1{
         height:100vh;
@@ -43,12 +43,11 @@ text-align: left;;
         display: none;
     }
 #img1{
-    max-width:100%;
-    margin-top:15vh;
+    margin-top:35vh;
     float:left;
     float:left;
-        
-    height:80vh;
+    display: block;
+width:95%;
 }
 
 #row2{
@@ -86,6 +85,7 @@ width:80%;
 #div2img{
     margin-top:30vh;
     max-width:100%;
+    height:40vh;
     text-align: center;
     margin-left:auto;
 margin-right:auto;
@@ -99,7 +99,7 @@ margin-left: 20%;;
 
 
 @media screen and (min-width:576px) and (max-width:996px){
-    #rfidSec{
+    #Beacon_Sec{
     
         .div1{
             height:100vh;
@@ -132,9 +132,9 @@ margin-left: 20%;;
             }
         }
     #img1{
-        margin-top:20vh;
+        margin-top:35vh;
         float:left;
-        height:80vh;
+        
         width:100%;
     }
     #img2{
@@ -201,8 +201,8 @@ margin-left: 20%;;
 
     
 @media screen and (max-width:576px) {
-    #rfidSec{
-    
+#Beacon_Sec{
+  
         .div1{
             height:100vh;
             background-color: black;;
@@ -212,12 +212,16 @@ margin-left: 20%;;
             
     width:100vw;
             #nesteddiv1{
-    margin-top:15vh;
-    margin-left:5%;
-    width:80%;
+    margin-top:20vh;
+    
+    width:100%;
+    
     text-align: left;;
-                h1{
-                    font-size:1.5em;
+    margin-bottom: 0vh;;
+    padding-bottom:0px;
+               
+    h1{
+                    font-size:1.8em;
                     color:white;
                     span{
                         color:#1DDAF2;
@@ -225,7 +229,7 @@ margin-left: 20%;;
                 }
     
                 h2{
-                    font-size:3em;
+                    font-size:3.5em;
                     font-weight:600;
                     font-family: 'Montserrat', sans-serif;
                     color:white;
@@ -238,8 +242,11 @@ margin-left: 20%;;
                 }
             }
         }
+
         #img1{
             display: none;
+            
+        margin-top:0vh;
         }
         #phonep{
             color: white;
@@ -252,11 +259,13 @@ margin-left: 20%;;
         
         
         float:left;
-        
+        margin-top:0vh;
         width:100%;
     }
 
-
+.div{
+    margin-top:0px;
+}
 
     
     #row2{
@@ -274,7 +283,7 @@ margin-left: 20%;;
       }
     
       #div2{
-          margin-top:10%;
+          margin-top:15vh;
     margin-left:5%;
     width:95%;
 
@@ -291,13 +300,14 @@ margin-left: 20%;;
           }
       }
       #div2img{
-        margin-top:2vh;
         
         text-align: center;
         margin-left:auto;
     margin-right:auto;
     margin-left: 25%;;
-        width:50%;
+    width:50%;
+
+
 }
 
 

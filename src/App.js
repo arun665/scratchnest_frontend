@@ -14,7 +14,10 @@ import Topheader from "./components/top_header";
 import Splashscreen from "./components/Splash Screen/Splashscreen";
 
 import DataLoggerSec from "./components/Sector/Logger/DataLogger_sec";
+import BeaconSec from "./components/Sector/Beacon/Beacon";
+
 import RfidSec from './components/Sector/RFID/Rfid';
+
 
 import Dataloggern from "./components/Products/Dataloggern/Dataloggern";
 
@@ -73,6 +76,7 @@ function App() {
               <Route component={RfidSec} path="/sector/RFID" />
               
               <Route component={Dataloggern} path="/products/logger" />
+              <Route component={BeaconSec} path="/sector/Beacon" />
               
             </Switch>
           </Router>

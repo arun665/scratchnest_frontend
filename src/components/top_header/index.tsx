@@ -135,7 +135,7 @@ function Topheader(props: any) {
         <a className="nav-link" href="#">RFID</a>
       </li>
      </Link>
-      <Link to="/sector/datalogger" >
+      <Link to="/sector/Beacon" >
      
       <li className="nav-item" >
         <a className="nav-link" href="#" >Beacon</a>
