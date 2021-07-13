@@ -21,7 +21,7 @@ function BeaconSec(){
 <div className="container-fluid" >
 <div className="row div1">
     <div className="col-sm-5 col-md-5 col-xs-12">
-        <div id="nesteddiv1">
+        <div id="nesteddiv1beacon">
 
             <h1> Scratch<span>Nest</span></h1>
         <h2> BEACONs</h2>
@@ -33,11 +33,12 @@ function BeaconSec(){
         
         </div>
     </div>
-    <div className="col-sm-7 col-md-7 col-xs-12">
+    <div className="col-sm-7 col-md-7 col-xs-12" id="divimg">
      <img src={bg1} id="img1" />    
     </div>
+    
     <div className="col-sm-7 col-md-7 col-xs-12">
-     <img src={bg2} id="img2" />    
+     <img src={bg2} id="beaconimg2" />    
     </div>
     <div className="col-sm-6 col-md-6 col-xs-12 div">
      <p id="phonep"> 
