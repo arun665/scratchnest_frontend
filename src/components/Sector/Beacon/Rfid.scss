@@ -215,7 +215,6 @@ margin-left: 20%;;
     #beaconimg2{
         
         
-   height:40vh;
         width:100%;
     }
     
@@ -224,17 +223,19 @@ margin-left: 20%;;
             #nesteddiv1beacon{
     margin-top:15vh;
     margin-bottom:0vh;
-    width:100%;
+    width:90%;
     
     text-align: left;;
     
     
     margin-bottom: 0vh;;
     padding-bottom:0px;
-    
+    margin-left:5%;
+            
            
     h1{
                     font-size:1.8em;
+            
                     color:white;
                     span{
                         color:#1DDAF2;
@@ -265,10 +266,12 @@ margin-left: 20%;;
         margin-top:0vh;
         }
         #phonep{
+            width:80%;
             color: white;
-            font-size:1em;
+            font-size:1.2em;
             text-align: left;;
             margin-left:5%;
+
             margin-top:0vh;
         }
     

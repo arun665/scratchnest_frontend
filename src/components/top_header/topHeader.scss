@@ -70,6 +70,9 @@ margin-bottom: auto;
 
 
 }
+#tempnav{
+  display: none;
+}
 
 
 
@@ -149,6 +152,10 @@ margin-bottom: auto;
   table{
     width:100%;
   }
+  #tempnav{
+    display: none;
+  }
+  
   
 }
 }
@@ -204,5 +211,19 @@ margin-bottom: auto;
   display: none;
   }
   
+  #tempnav{
+    display: block;
+    text-align: left;
+   
+    a{
+      text-align:left;
+      float: left;;
+    }
+    
+    ul{
+      text-align: left;
+   
+    }
+  }
 }
 }

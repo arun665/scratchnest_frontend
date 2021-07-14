@@ -15,7 +15,7 @@ import { useHistory } from "react-router";
 import img1 from './img.png'; 
 import img2 from './bg.png'; 
 import img3 from './img2.png';
-
+import SwiperDataLogger from './Swiper/swiper';
 import vector from './Vector.png';
 import vector1 from './Vector1.png';
 import vector2 from './Vector-2.png';
@@ -262,6 +262,7 @@ life device</div>
 </div>
 
 <Carousel2/>
+
 <Video/> 
 <Accordion/>
 
