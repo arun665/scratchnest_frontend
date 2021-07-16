@@ -27,7 +27,7 @@ const Carousel2 = () => {
 
 
 <div id="demo" class="carousel slide carouseldesktop" data-ride="carousel">
-{/*
+
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
@@ -173,8 +173,8 @@ dummy text ever since the 1500.</p>
     <span class="carousel-control-next-icon"></span>
   </a>
 
-*/}
-<Swinger/>
+
+  {/*<Swinger/> */}
 
 </div>
 
@@ -182,7 +182,7 @@ dummy text ever since the 1500.</p>
 
 <div id="demo2" class="carousel slide carouselphone" data-ride="carousel">
 
-{/*  
+
   <ul class="carousel-indicators">
     <li data-target="#demo2" data-slide-to="0" class="active"></li>
     <li data-target="#demo2" data-slide-to="1"></li>
@@ -269,9 +269,8 @@ dummy text ever since the 1500.</p>
   <a class="carousel-control-next" href="#demo2" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
-*/}
 
-<Swiper2/>
+{/*<Swiper2/ > */}
 </div>
 
 

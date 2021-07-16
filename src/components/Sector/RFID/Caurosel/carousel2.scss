@@ -6,10 +6,12 @@
 #applicationsrfid{
     
     background-color: white;;
+    background-image: url('./bg3.png');
     background-size:cover;
     background-repeat: no-repeat;
     padding-top:5%;
     padding-bottom:5%;
+    
     
 
     
@@ -35,7 +37,6 @@ width:100%;
 
     .card{
         background-color:#2C2C2C;
-box-shadow:10px 10px 10px  grey;
 
         color:white;
 
