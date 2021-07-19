@@ -147,7 +147,7 @@ function Topheader(props: any) {
         <a className="nav-link" href="#" >DataLogger</a>
       </li>    
       </Link>
-      <Link to="/sector/datalogger" >
+      <Link to="/sector/Education" >
      
       <li className="nav-item">
         <a className="nav-link" href="#">Education</a>
@@ -282,7 +282,7 @@ function Topheader(props: any) {
        <a className="nav-link" href="#" >DataLogger</a>
      </li>    
      </Link>
-     <Link to="/sector/datalogger" >
+     <Link to="/sector/Education" >
     
      <li className="nav-item">
        <a className="nav-link" href="#">Education</a>
