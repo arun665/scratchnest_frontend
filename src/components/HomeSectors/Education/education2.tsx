@@ -4,6 +4,7 @@ import { IonCol, IonGrid, IonRow, IonText } from "@ionic/react";
 
 import Footer from "../../Footer/footer2";
 import { Link } from "react-router-dom";
+
 import education from './education.png';
 
 function Education() {
@@ -38,7 +39,7 @@ most interactive and dynamic platforms.
 <div className="col-sm-12 col-md-12 col-xs-12">
 
 <div id="btn1">
-<Link to="/sector/education">
+<Link to="/sector/Education">
                 
 <button className="btn btn-outline-primary" id="button1" data-aos="zoom-out"> Explore now  </button>
 </Link>
@@ -63,7 +64,7 @@ most interactive and dynamic platforms.
 <div className="col-sm-12 col-md-0 col-xs-12">
 
 <div id="btn2">
-<Link to="/sector/Beacon">
+<Link to="/sector/Education">
                 
 <button className="btn btn-outline-primary" id="button1" data-aos="zoom-out"> Explore now  </button>
 </Link>

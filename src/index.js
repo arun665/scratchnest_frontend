@@ -23,8 +23,8 @@ ReactDOM.render(
   document.getElementById("root")
 );
 AOS.init({
-  offset: 10,
-  duration:600,
+  offset: 0,
+  duration:1500,
   once:true 
 });
 

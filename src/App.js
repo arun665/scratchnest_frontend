@@ -22,6 +22,7 @@ import RfidSec from './components/Sector/RFID/Rfid';
 
 
 import Dataloggern from "./components/Products/Dataloggern/Dataloggern";
+import OnePort_Rfid from "./components/Products/Rfid/oneport/Rfidproduct2";
 
 
 
@@ -80,6 +81,8 @@ function App() {
               <Route component={EducationSec} path="/sector/Education" />
               
               <Route component={Dataloggern} path="/products/logger" />
+              <Route component={OnePort_Rfid} path="/products/Rfid/oneport" />
+              
               <Route component={BeaconSec} path="/sector/Beacon" />
               
             </Switch>
