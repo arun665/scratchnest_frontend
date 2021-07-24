@@ -25,7 +25,8 @@ import Dataloggern from "./components/Products/Dataloggern/Dataloggern";
 import Twoport_Rfid from "./components/Products/Rfid/twoport/Rfidproduct2";
 import OnePort_Rfid from "./components/Products/Rfid/oneport/Rfidproduct2";
 import Beacon_product from "./components/Products/Beacon/TrackingBeacon/TrackingBeacon/Rfidproduct2";
-
+import CircularAntenna from './components/Products/Antenna/CircularAntenna/Rfidproduct2';
+import LinearAntenna from './components/Products/Antenna/LinearAntenna/Rfidproduct2';
 
 import FixedReader_Two from "./components/Products/Rfid/fixedReader2/Rfidproduct2";
 
@@ -92,6 +93,9 @@ function App() {
               <Route component={FixedReader_Two} path="/products/Rfid/fixedReader_Twoport" />
               <Route component={FixedReader_Four} path="/products/Rfid/fixedReader_Fourport" />
               <Route component={Beacon_product} path="/products/Beacon" />
+              <Route component={LinearAntenna} path="/products/LinearAntenna" />
+              
+              <Route component={CircularAntenna} path="/products/CircularAntenna" />
               
               <Route component={BeaconSec} path="/sector/Beacon" />
               

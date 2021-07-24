@@ -91,12 +91,13 @@ return(<>
 <div>
 <Boxes2/>
 </div>
-
+{/*
 <video id="beaconvideo"   loop autoPlay muted>
     <source  src="https://res.cloudinary.com/dpysmqax5/video/upload/v1619894003/beacon_s_uronzf.mp4" type="video/mp4" />
     
 
 </video>
+*/}
 <div>
 <Accordion/>
 </div>

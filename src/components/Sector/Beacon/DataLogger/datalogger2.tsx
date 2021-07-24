@@ -45,7 +45,7 @@ function Beacon2() {
 <div className="col-sm-12 col-xs-12 col-md-12">
 
   <div id="btn1">
-<Link to="/products/logger">
+<Link to="/products/Beacon">
                         
 <button className="btn btn-outline-primary" id="button1"> know more  </button>
 </Link>

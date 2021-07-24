@@ -21,6 +21,7 @@ function fixed(){
     <h1> Scratch<span>Nest</span></h1>
     <p> One Port Reader</p>
     <Link to="/products/rfid/oneport">
+
     <button className="btn btn-primary" id="button">Know More </button>
 </Link>
 </div>
@@ -37,7 +38,10 @@ function fixed(){
 <div id="para">
     <h1> Scratch<span>Nest</span></h1>
     <p> Two Port Reader</p>
+    <Link to="/products/rfid/twoport">
+        
     <button className="btn btn-primary" id="button">Know More </button>
+    </Link>
 </div>
 
              

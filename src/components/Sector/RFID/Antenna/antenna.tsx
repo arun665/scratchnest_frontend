@@ -1,7 +1,7 @@
 import './antenna.scss';
 import oneport from './oneport.png';
 import twoport from './twoport.png';
-
+import {Link} from 'react-router-dom';
 
 function Antenna(){
     return(
@@ -20,7 +20,8 @@ function Antenna(){
 <div id="para">
     <h1> Scratch<span>Nest</span></h1>
     <p> Linear Polarized</p>
-    <button className="btn btn-primary" id="button">Know More </button>
+    <Link to="/products/LinearAntenna">
+    <button className="btn btn-primary" id="button">Know More </button></Link>
 </div>
 
              
@@ -35,7 +36,8 @@ function Antenna(){
 <div id="para">
     <h1> Scratch<span>Nest</span></h1>
     <p> Circular Polarized</p>
-    <button className="btn btn-primary" id="button">Know More </button>
+    <Link to="/products/CircularAntenna">
+    <button className="btn btn-primary" id="button">Know More </button></Link>
 </div>
 
              

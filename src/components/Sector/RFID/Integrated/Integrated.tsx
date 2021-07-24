@@ -1,6 +1,7 @@
 import './integrated.scss';
 import oneport from './oneport.png';
 import twoport from './twoport.png';
+import {Link} from 'react-router-dom';
 
 
 function fixed(){
@@ -20,7 +21,9 @@ function fixed(){
 <div id="para">
     <h1> Scratch<span>Nest</span></h1>
     <p> Two Port Reader</p>
+    <Link to="/products/Rfid/fixedReader_Twoport">
     <button className="btn btn-primary" id="button">Know More </button>
+    </Link>
 </div>
 
              
@@ -35,7 +38,9 @@ function fixed(){
 <div id="para">
     <h1> Scratch<span>Nest</span></h1>
     <p> Four Port Reader</p>
+    <Link to="/products/Rfid/fixedReader_Fourport">
     <button className="btn btn-primary" id="button">Know More </button>
+    </Link>
 </div>
 
              

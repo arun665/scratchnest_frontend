@@ -242,13 +242,13 @@ function Topheader(props: any) {
       </a>
       <div className="dropdown-menu bg-dark">
 
-      <Link to="/sector/datalogger" className="dropdown-item">
+      <Link to="/products/LinearAntenna" className="dropdown-item">
      
         <a className="dropdown-item" href="#">       Linear Polarized Antenna
                                            </a>
 
     </Link>
-    <Link to="/sector/datalogger" className="dropdown-item" >
+    <Link to="/products/CircularAntenna" className="dropdown-item" >
      
         <a className="dropdown-item" href="#">           Circular Polarized Antenna
                                        </a>

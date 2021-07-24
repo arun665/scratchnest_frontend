@@ -93,11 +93,13 @@ return(<>
 <Boxes2/>
 </div>
 <div>
+  {/*
 <video id="twoportvideo"   loop autoPlay muted>
     <source src="https://res.cloudinary.com/dpysmqax5/video/upload/v1618743793/1Port_1.0001_jnnnl8.mp4" type="video/mp4" />
     
 
 </video>
+  */}
 </div>
 <div>
 <Accordion/>
