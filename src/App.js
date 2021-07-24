@@ -22,9 +22,15 @@ import RfidSec from './components/Sector/RFID/Rfid';
 
 
 import Dataloggern from "./components/Products/Dataloggern/Dataloggern";
+import Twoport_Rfid from "./components/Products/Rfid/twoport/Rfidproduct2";
 import OnePort_Rfid from "./components/Products/Rfid/oneport/Rfidproduct2";
+import Beacon_product from "./components/Products/Beacon/TrackingBeacon/TrackingBeacon/Rfidproduct2";
 
 
+import FixedReader_Two from "./components/Products/Rfid/fixedReader2/Rfidproduct2";
+
+
+import FixedReader_Four from "./components/Products/Rfid/fixedReader4/Rfidproduct2";
 
 
 
@@ -82,6 +88,10 @@ function App() {
               
               <Route component={Dataloggern} path="/products/logger" />
               <Route component={OnePort_Rfid} path="/products/Rfid/oneport" />
+              <Route component={Twoport_Rfid} path="/products/Rfid/twoport" />
+              <Route component={FixedReader_Two} path="/products/Rfid/fixedReader_Twoport" />
+              <Route component={FixedReader_Four} path="/products/Rfid/fixedReader_Fourport" />
+              <Route component={Beacon_product} path="/products/Beacon" />
               
               <Route component={BeaconSec} path="/sector/Beacon" />
               

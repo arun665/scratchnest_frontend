@@ -1,7 +1,7 @@
 import './fixed.scss';
 import oneport from './oneport.png';
 import twoport from './twoport.png';
-
+import {Link} from 'react-router-dom';
 
 function fixed(){
     return(
@@ -20,7 +20,9 @@ function fixed(){
 <div id="para">
     <h1> Scratch<span>Nest</span></h1>
     <p> One Port Reader</p>
+    <Link to="/products/rfid/oneport">
     <button className="btn btn-primary" id="button">Know More </button>
+</Link>
 </div>
 
              

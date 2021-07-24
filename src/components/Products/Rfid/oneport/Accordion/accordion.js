@@ -133,12 +133,12 @@ User manual<br></br>
       <div id="collapse3" class="collapse" data-parent="#accordion">
         <div class="card-body">
         <a
-                        href="/Downloadfile/ambitag.pdf"
+                        href="/Downloadfile/ir1.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         download
                       >
-                        Click to download
+                        Click to download 
                       </a>
     
         </div>

@@ -185,18 +185,18 @@ function Topheader(props: any) {
                                           </a>
 
     </Link>
-    <Link to="/sector/datalogger" className="dropdown-item" >
+    <Link to="/products/rfid/twoport" className="dropdown-item" >
      
         <a className="dropdown-item" href="#">        Two Port Integrated Reader
                                           </a>
         </Link>
-        <Link to="/sector/datalogger" className="dropdown-item" >
+        <Link to="/products/Rfid/fixedReader_Twoport" className="dropdown-item" >
      
         <a className="dropdown-item" href="#">        Two Port Fixed Reader
                                           </a>
 
         </Link>
-        <Link to="/sector/datalogger" className="dropdown-item" >
+        <Link to="/products/Rfid/fixedReader_Fourport" className="dropdown-item" >
      
      <a className="dropdown-item" href="#">        Four Port Fixed Reader
                                        </a>
@@ -211,7 +211,7 @@ function Topheader(props: any) {
       </a>
       <div className="dropdown-menu bg-dark">
 
-      <Link to="/sector/datalogger" className="dropdown-item">
+      <Link to="/products/Beacon" className="dropdown-item">
      
         <a className="dropdown-item" href="#">    Tracking Beacon</a>
 

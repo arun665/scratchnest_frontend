@@ -7,7 +7,12 @@ import Boxes from './boxes/boxes';
 import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
+import {useEffect} from 'react';
 function RfidProduct(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 return(<>
 <div  id="oneport">
 <TopHeader/>
@@ -87,7 +92,13 @@ return(<>
 <div>
 <Boxes2/>
 </div>
+<div>
+<video id="twoportvideo"   loop autoPlay muted>
+    <source src="https://res.cloudinary.com/dpysmqax5/video/upload/v1618743793/1Port_1.0001_jnnnl8.mp4" type="video/mp4" />
+    
 
+</video>
+</div>
 <div>
 <Accordion/>
 </div>
