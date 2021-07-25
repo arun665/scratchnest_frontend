@@ -119,11 +119,12 @@ function Topheader(props: any) {
 
 <nav className="navbar navbar-expand-* bg-dark navbar-dark">
   <a className="navbar-brand" href="#">
-
+<Link to="/">
   <img
               src="https://res.cloudinary.com/dpysmqax5/image/upload/v1615074337/logo_white_solid__copy_dqpf6l.png"
               className="logofooter"
             />
+            </Link>
   </a>
   
   
