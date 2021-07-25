@@ -14,7 +14,7 @@ return(
     <div className="container-fluid"> 
     <div className="heading">
         <h1><span>Functions</span> of the Antenna</h1>
-        <h2> Here are some functions of the Circular Polarized Antenna. </h2>
+        <h2> Here are some functions of the Linear Polarized Antenna. </h2>
         
          </div>
 

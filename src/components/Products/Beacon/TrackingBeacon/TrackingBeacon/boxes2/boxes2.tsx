@@ -13,8 +13,8 @@ return(
 <div id="functions">
     <div className="container-fluid"> 
     <div className="heading">
-        <h1><span>Functions</span> of the Reader</h1>
-        <h2> Here are some functions of the 1 Port Integrated Reader.  </h2>
+        <h1><span>Functions</span> of the Beacon</h1>
+        <h2> Here are some functions of the Tracking Beacon  </h2>
         
          </div>
 

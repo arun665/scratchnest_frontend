@@ -14,7 +14,7 @@ return(
     <div className="container-fluid"> 
     <div className="heading">
         <h1><span>Functions</span> of the Reader</h1>
-        <h2> Here are some functions of the 2 Port Integrated Reader.  </h2>
+        <h2> Here are some functions of the 4 Port Fixed Reader.  </h2>
         
          </div>
 

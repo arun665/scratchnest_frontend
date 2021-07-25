@@ -8,7 +8,7 @@ return(<>
 <div class="container" id="accordiononeport">
 <div id="div2">
 
-<h1>Few more  <span>Details</span> about the Reader </h1>
+<h1>Few more  <span>Details</span> about the Beacon </h1>
 <p> Parameters and Technical specifications of our product are listed below.</p>
   
 

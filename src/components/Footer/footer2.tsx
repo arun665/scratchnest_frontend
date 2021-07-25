@@ -9,6 +9,20 @@ import EmailIcon from "@material-ui/icons/Email";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const Twitter= () => {
+    window.open("https://twitter.com/NestScratch");
+  };
+  const Instagram= () => {
+    window.open("https://www.instagram.com/scratchnest/");
+  };
+  
+  const Linkedin= () => {
+    window.open("https://www.linkedin.com/company/scratchnest-private-limited/");
+  };
+  
+  const facebook=()=>{
+    window.open("https://www.facebook.com/ScratchNestPvtLtd");
+  }
   return (
     <div className="footer2 container-fluid" >
      <div className="container-fluid">
@@ -23,20 +37,20 @@ function Footer() {
 
             
            <div className="btn-group">
-           <a href="https://twitter.com/NestScratch">
+           <a onClick={Twitter} >
         
     <button type="button" className="btn  btn-lg text-white fa fa-twitter" > </button>
     </a>
 
-    <a href="https://www.linkedin.com/company/scratchnest-private-limited/">
+    <a onClick={Linkedin}>
  
     <button type="button" className="btn  btn-lg text-white fa fa-linkedin"></button>
  </a>  
-    <a href="https://www.facebook.com/ScratchNestPvtLtd">
+    <a onClick={facebook}>
            
     <button type="button" className="btn  btn-lg text-white fa fa-facebook"></button>
     </a>
-    <a href="https://www.instagram.com/scratchnest/">
+    <a onClick={Instagram}>
            
     <button type="button" className="btn  btn-lg text-white fa fa-instagram"></button>
     </a>
