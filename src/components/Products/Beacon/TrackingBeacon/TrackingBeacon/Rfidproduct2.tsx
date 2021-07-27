@@ -8,13 +8,21 @@ import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
 import {useEffect} from 'react';
+import {Helmet} from "react-helmet";
+
 function RfidProduct(){
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title = "Tracking Beacon";
       }, [])
 return(<>
 <div  id="oneport">
+<Helmet>
+        <title>Tracking Beacon</title>
+        <meta name="description" content="It is the latest developed technology which connects and transmits the information to your smart devices. It also makes location based searches and interaction easier with this connectivity technology." />
+    </Helmet>
+
 <TopHeader/>
     
   {/*  <video id="background-video" style={{ "height":"100vh" , "backgroundColor":"#f0eef0" , "width":"100vw"}}   loop autoPlay muted>

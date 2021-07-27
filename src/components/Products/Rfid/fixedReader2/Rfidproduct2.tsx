@@ -8,14 +8,23 @@ import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
 import { useEffect } from 'react';
+
+import {Helmet} from "react-helmet";
+
 function Twoport(){
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = "Two Port Fixed Reader"
   }, [])
 return(<>
 <div  id="twoport">
 <TopHeader/>
+<Helmet>
+        <title>Two Port Fixed Reader</title>
+        <meta name="description" content="ScratchNest SN-FR 201 is a fixed two port RAIN RFID Reader which works in the ultra-high frequency range. It boasts various features including two antenna ports and USB, RS-232, RS-485, and LAN interfaces that make it easy to install and use." />
+    </Helmet>
+
     
   {/*  <video id="background-video" style={{ "height":"100vh" , "backgroundColor":"#f0eef0" , "width":"100vw"}}   loop autoPlay muted>
     <source src="https://res.cloudinary.com/dpysmqax5/video/upload/v1618743793/1Port_1.0001_jnnnl8.mp4" type="video/mp4" />

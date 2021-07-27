@@ -25,7 +25,7 @@ ReactDOM.render(
 AOS.init({
   offset: 0,
   duration:1500,
-  once:true 
+  once:false
 });
 
 // If you want to start measuring performance in your app, pass a function

@@ -7,16 +7,21 @@ import Footer from "../../Footer/footer2";
 import img1 from './img1.png';
 import img2 from './img2.png';
 import { Link } from "react-router-dom";
-
+import {Helmet} from "react-helmet";
 
 function Education(){
   
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title = "ScratchNest Education";
       }, [])
       
     return(<div id="educationSec">
+<Helmet>
+<title>Scratchnest Education</title>
+        <meta name="description" content="ScratchNest Education brings technology education brought to your doorstep through the most interactive and dynamic platforms." />
 
+</Helmet>
 
 <Topheader/> 
 

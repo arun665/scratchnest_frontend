@@ -11,6 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body::-webkit-scrollbar {
+  width: 0.2em;
+  color:grey;
+  
+  background-color: grey;
+}
 
 body {
   margin: 0;
@@ -36,7 +42,7 @@ html {
        
 }
 ::-webkit-scrollbar-thumb {
-  background: #ff0000;
+  background: orangered;
 }
 
 * {

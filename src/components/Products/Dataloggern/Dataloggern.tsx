@@ -24,8 +24,10 @@ import vector4 from './Vector-4.png';
 import vector5 from './Vector-5.png';
 import vector6 from './Vector-6.png';
 import vector7 from './Vector-7.png';
+import {Helmet} from "react-helmet";
 
 import Accordion from './accordion';
+
 interface JQuery {
   switchClass(): void;
 }
@@ -43,7 +45,8 @@ function Dataloggern(props: any) {
     }
   }, []);
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = "AmbiTag-Data Logger"
   }, [])
   const [showModal, setShowModal] = useState(false);
   console.log(showModal, " Modall");
@@ -60,6 +63,11 @@ function Dataloggern(props: any) {
   }, [handleClick, showModal]);
 
   return (<>
+   <Helmet>
+        <title>Ambitag-DataLogger</title>
+        <meta name="description" content="The AmbiTag temperature data logger is a compact sadasdasdadas USB device that records the temperature of its immediate surroundings continuously and generates alert when the temperature goes beyond pre-set limits." />
+    </Helmet>
+
   <Header/>
     <div className="dataloggerproduct">
       <div className="container-fluid div1">

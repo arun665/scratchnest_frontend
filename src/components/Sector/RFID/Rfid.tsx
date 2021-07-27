@@ -11,15 +11,19 @@ import Integrated from './Integrated/Integrated';
 import Carousel2 from './Caurosel/Carousel.js';
 import Footer from "../../Footer/footer2";
 import Swiper from './swiper/swiper';
-
+import {Helmet} from "react-helmet";
 function RfidSec(){
   
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title = "RFID Devices"
       }, [])
       
     return(<div id="rfidSec">
-
+    <Helmet>
+        <title>RFID Devices</title>
+        <meta name="description" content="A one-point solution to the haphazard of maintaining a record of your assets, Radio Frequency Identification is amongst the most reliable and efficient technologies that lay information at your footsteps within seconds. ScratchNest RFID products and solutions are custom designed from scratch, suiting your requirements, and cover the entire spectrum of HF and UHF RFID." />
+    </Helmet>
 
 <Topheader/> 
 

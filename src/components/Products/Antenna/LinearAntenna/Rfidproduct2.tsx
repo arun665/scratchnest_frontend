@@ -8,13 +8,20 @@ import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
 import {useEffect} from 'react';
+import {Helmet} from "react-helmet";
+
 function RfidProduct(){
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title = "Linear Antenna"
       }, [])
 return(<>
 <div  id="oneport">
+<Helmet>
+        <title>Linear Antenna</title>
+        <meta name="description" content="linear polarized RFID antenna that provides reception and transmission of signals in the UHF frequency band. Both US and EU versions are available in this model" />
+    </Helmet>
 <TopHeader/>
     
   {/*  <video id="background-video" style={{ "height":"100vh" , "backgroundColor":"#f0eef0" , "width":"100vw"}}   loop autoPlay muted>

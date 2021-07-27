@@ -8,13 +8,20 @@ import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
 import {useEffect} from 'react';
+import {Helmet} from "react-helmet";
 function RfidProduct(){
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title = "Circular Antenna";
+        
       }, [])
 return(<>
 <div  id="oneport">
+  <Helmet>
+  <title>Circular Antenna</title>
+        <meta name="description" content=" The ScratchNest far-field RFID antenna comes with a heavy-duty polycarbonate housing, possesses female TNC connectors and excellent VSWR and axial ratios." />
+  </Helmet>
 <TopHeader/>
     
   {/*  <video id="background-video" style={{ "height":"100vh" , "backgroundColor":"#f0eef0" , "width":"100vw"}}   loop autoPlay muted>

@@ -7,14 +7,20 @@ import bg2 from './bg.png';
 import rfidimg2 from './div2Beacon.png';
 import Footer from "../../Footer/footer2";
 import Beacon2 from "./DataLogger/datalogger2";
+import {Helmet} from "react-helmet";
+
 function BeaconSec(){
   
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        document.title = "Beacon"
       }, [])
       
     return(<div id="Beacon_Sec">
-
+           <Helmet>
+        <title>Beacon</title>
+        <meta name="description" content="Based on a highly efficient, short range communication technology consuming the least power, experience the power of BLE with ScratchNest's Beacons." />
+    </Helmet>
 
 <Topheader/> 
 

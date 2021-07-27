@@ -7,14 +7,21 @@ import Footer from "../../Footer/footer2";
 import { Link } from "react-router-dom";
 import DataLogger from "./DataLogger/datalogger2";
 import { useEffect } from "react";
+import {Helmet} from "react-helmet";
+
 function DataLoggerSec() {
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = "Data Logger";
   }, [])
   return (
 
 <>
+<Helmet>
+        <title>Data Logger</title>
+        <meta name="description" content="A data logger is an electronic device that records your data over time. It works with built-in sensors, which detect the change with time. If it is based on a digital processor then also called a digital data logger (DDL)." />
+    </Helmet>
 <Topheader/>
 <div className="container-fluid" id="logger">
 

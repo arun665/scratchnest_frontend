@@ -8,13 +8,21 @@ import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
 import { useEffect } from 'react';
+import {Helmet} from "react-helmet";
+
 function Twoport(){
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = "Four Port Fixed Reader"
   }, [])
 return(<>
 <div  id="twoport">
+<Helmet>
+        <title>Four Port Fixed Reader</title>
+        <meta name="description" content="ScratchNest SN-FR 401 is a fixed four port RAIN RFID Reader which works in the ultra-high frequency range. It boasts various features including two antenna ports and USB, RS-232, RS-485, and LAN interfaces that make it easy to install and use. " />
+    </Helmet>
+
 <TopHeader/>
     
   {/*  <video id="background-video" style={{ "height":"100vh" , "backgroundColor":"#f0eef0" , "width":"100vw"}}   loop autoPlay muted>
