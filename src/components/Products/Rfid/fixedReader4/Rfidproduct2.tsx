@@ -17,7 +17,7 @@ function Twoport(){
     document.title = "Four Port Fixed Reader"
   }, [])
 return(<>
-<div  id="twoport">
+<div  id="fixedfourport_product">
 <Helmet>
         <title>Four Port Fixed Reader</title>
         <meta name="description" content="ScratchNest SN-FR 401 is a fixed four port RAIN RFID Reader which works in the ultra-high frequency range. It boasts various features including two antenna ports and USB, RS-232, RS-485, and LAN interfaces that make it easy to install and use. " />

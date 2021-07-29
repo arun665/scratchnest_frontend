@@ -23,6 +23,7 @@ import Collapsable from "./Collapsable/Collapsable_trackingb.js";
 import ReactPlayer from "react-player";
 import InboxIcon from "@material-ui/icons/Inbox";
 import { useHistory } from "react-router";
+import {Helmet} from "react-helmet";
 
 interface JQuery {
   switchClass(): void;

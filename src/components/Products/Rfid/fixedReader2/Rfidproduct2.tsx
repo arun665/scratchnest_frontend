@@ -11,6 +11,7 @@ import { useEffect } from 'react';
 
 import {Helmet} from "react-helmet";
 
+
 function Twoport(){
 
   useEffect(() => {
@@ -18,7 +19,7 @@ function Twoport(){
     document.title = "Two Port Fixed Reader"
   }, [])
 return(<>
-<div  id="twoport">
+<div  id="fixed2port_product">
 <TopHeader/>
 <Helmet>
         <title>Two Port Fixed Reader</title>

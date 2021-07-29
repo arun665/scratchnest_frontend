@@ -87,7 +87,7 @@ padding-left:30px;
 
   
     
-    height:70vh;
+    margin-bottom:10vh;
     width:100vw;
 background-image: url('./bg2.png');
 background-repeat: none;
@@ -121,7 +121,8 @@ background-size: cover;
 
 
 .div3{
-    height: 100vh;;
+    margin-bottom:10vh;
+    
     width:100vw;
     background-image: url('./bg3.png');
 background-repeat: none;
@@ -152,7 +153,10 @@ margin-left:10vw;
         .card{
         background-color: black;
         padding:5%;
-        height:20vh;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height:25vh;
             width: 85%;
             margin-left:7%;
             border-radius:25px;

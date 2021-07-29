@@ -3,7 +3,7 @@ import "./App.css";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route,Redirect,
   useHistory,
 } from "react-router-dom";
 import HomeSector from "./components/HomeSectors/HomeSector.tsx";
@@ -29,7 +29,7 @@ import CircularAntenna from './components/Products/Antenna/CircularAntenna/Rfidp
 import LinearAntenna from './components/Products/Antenna/LinearAntenna/Rfidproduct2';
 
 import FixedReader_Two from "./components/Products/Rfid/fixedReader2/Rfidproduct2";
-
+import Error from './components/Error/error';
 
 import FixedReader_Four from "./components/Products/Rfid/fixedReader4/Rfidproduct2";
 
@@ -82,23 +82,24 @@ function App() {
         
             <Switch>
               <Route component={HomeSector} exact path="/" />
-              <Route component={DataLoggerSec} path="/sector/datalogger" />
-              <Route component={RfidSec} path="/sector/RFID" />
+              <Route component={DataLoggerSec} exact path="/sector/datalogger" />
+              <Route component={RfidSec} path="/sector/RFID" exact/>
               
-              <Route component={EducationSec} path="/sector/Education" />
+              <Route component={EducationSec} path="/sector/Education" exact/>
               
-              <Route component={Dataloggern} path="/products/logger" />
-              <Route component={OnePort_Rfid} path="/products/Rfid/oneport" />
-              <Route component={Twoport_Rfid} path="/products/Rfid/twoport" />
-              <Route component={FixedReader_Two} path="/products/Rfid/fixedReader_Twoport" />
-              <Route component={FixedReader_Four} path="/products/Rfid/fixedReader_Fourport" />
-              <Route component={Beacon_product} path="/products/Beacon" />
-              <Route component={LinearAntenna} path="/products/LinearAntenna" />
+              <Route component={Dataloggern} path="/products/logger" exact/>
+              <Route component={OnePort_Rfid} path="/products/Rfid/oneport" exact/>
+              <Route component={Twoport_Rfid} path="/products/Rfid/twoport" exact/>
+              <Route component={FixedReader_Two} path="/products/Rfid/fixedReader_Twoport" exact />
+              <Route component={FixedReader_Four} path="/products/Rfid/fixedReader_Fourport" exact/>
+              <Route component={Beacon_product} path="/products/Beacon" exact/>
+              <Route component={LinearAntenna} path="/products/LinearAntenna" exact/>
               
-              <Route component={CircularAntenna} path="/products/CircularAntenna" />
+              <Route component={CircularAntenna} path="/products/CircularAntenna" exact/>
               
-              <Route component={BeaconSec} path="/sector/Beacon" />
-              
+              <Route component={BeaconSec} path="/sector/Beacon" exact/>
+              <Route component={Error} path="/error"/>
+              <Redirect to="/error"/>
             </Switch>
           </Router>
         )}

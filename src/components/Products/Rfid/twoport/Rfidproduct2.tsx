@@ -17,7 +17,7 @@ function Twoport(){
     document.title = "Two Port Integrated Reader"
   }, [])
 return(<>
-<div  id="twoport">
+<div  id="twoport_product">
 <Helmet>
         <title>Two Port Integrated Reader</title>
         <meta name="description" content=" It boasts various features including a built-in 9 dBi circular polarized antenna, an external antenna port of 50 Ohm and USB, RS-232, RS-485, and LAN interfaces that make it easy to install and use. Additionally, the range of RF power is 0 to 31.5 dBm which is adjustable via software." />

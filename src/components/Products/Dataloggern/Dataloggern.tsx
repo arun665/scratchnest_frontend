@@ -150,7 +150,7 @@ retrieved by inserting the USB into any computer</p>
 <img src={vector} id="nestedimg" />
 
   </div>
-  <div className="card-footer" id="cardpara">Auto Generated 
+  <div id="cardpara">Auto Generated 
 PDF Report</div>
 </div>
 
@@ -165,7 +165,7 @@ PDF Report</div>
 <img src={vector1} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">
+<div id="cardpara">
 
 Long logging
 period of 90 days
@@ -183,7 +183,7 @@ period of 90 days
 <img src={vector2} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">Inbuilt USB
+<div  id="cardpara">Inbuilt USB
 function</div>
 </div>
 
@@ -198,7 +198,7 @@ function</div>
 <img src={vector3} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">Slim and compact design</div>
+<div id="cardpara">Slim and compact design</div>
 </div>
 
 </div>
@@ -213,7 +213,7 @@ function</div>
 <img src={vector4} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">IP65 rating
+<div  id="cardpara">IP65 rating
 (optional)</div>
 </div>
 
@@ -227,7 +227,7 @@ function</div>
 <img src={vector5} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">Long Battery
+<div id="cardpara">Long Battery
 life device</div>
 </div>
 
@@ -241,7 +241,7 @@ life device</div>
 <img src={vector6} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">Plug and Play device</div>
+<div id="cardpara">Plug and Play device</div>
 </div>
 
 </div>
@@ -254,7 +254,7 @@ life device</div>
 <img src={vector7} id="nestedimg" />
 
 </div>
-<div className="card-footer" id="cardpara">Alarm for low and high temp.</div>
+<div id="cardpara">Alarm for low and high temp.</div>
 </div>
 
 </div>

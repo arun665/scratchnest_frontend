@@ -25,15 +25,15 @@ return(<>
       </div>
       <div id="collapseOne" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Dimension - 160 x 130 x 30 mm <br></br>
-Material - Aluminium alloy<br></br>
-Communication Interfaces - USB, RS-232, RS-485, Wiegand, and LAN<br></br>
-Input Voltage - 9-24 V DC supply<br></br>
-Current Rating - 2 A<br></br>
-Cooling Mode - Air cooling<br></br>
-Ethernet Interface - 10/100 Base T-Ethernet (RJ45)<br></br>
-GPIO - 4 input and 4 output<br></br>
-Dense Reader Mode - Supported<br></br>
+       <b> Dimension -</b> 160 x 130 x 30 mm <br></br>
+       <b>Material -</b> Aluminium alloy<br></br>
+       <b>Communication Interfaces -</b> USB, RS-232, RS-485, Wiegand, and LAN<br></br>
+ <b>Input Voltage -</b> 9-24 V DC supply<br></br>
+ <b>Current Rating - </b>2 A<br></br>
+ <b>Cooling Mode -</b> Air cooling<br></br>
+ <b>Ethernet Interface -</b> 10/100 Base T-Ethernet (RJ45)<br></br>
+ <b>GPIO -</b> 4 input and 4 output<br></br>
+ <b>Dense Reader Mode -</b> Supported<br></br>
     
         </div>
       </div>
@@ -48,10 +48,10 @@ Dense Reader Mode - Supported<br></br>
       </div>
       <div id="collapseTwo" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Environmental Sealing - IP65 rating<br></br>
-Operating Temperature - -25 to 65 °C<br></br>
-Storage Temperature - -45 to 90 °C<br></br>
-Relative Humidity - 10% to 90%<br></br>
+        <b>    Environmental Sealing -</b> IP65 rating<br></br>
+        <b>Operating Temperature - </b>-25 to 65 °C<br></br>
+        <b>Storage Temperature -</b> -45 to 90 °C<br></br>
+        <b>Relative Humidity - </b>10% to 90%<br></br>
         </div>
       </div>
     </div>
@@ -66,16 +66,16 @@ Relative Humidity - 10% to 90%<br></br>
       </div>
       <div id="collapse4" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Operating Frequency - 840 - 960 MHz<br></br>
-Protocol -EPC Class1 Gen2 (ISO 18000-6C), ISO 18000-6A/B<br></br>
-Antenna - Inbuilt 9 dBi Circular Polarized Antenna<br></br>
-MCU -Arm Cortex-M4<br></br>
-RF Power - 31.5 dBm, adjustable via software<br></br>
-RF Sensitivity - less than -90 dBm<br></br>
-RSSI - Supported<br></br>
-Maximum Tag Read Rate - 700 tags/s (with 16-bit tag EPC length)<br></br>
-Tag Read Indication - LED and buzzer<br></br>
-Carrier Cancellation Circuitry - Enabling pre- and re-tuning<br></br>
+        <b> Operating Frequency - </b>840 - 960 MHz<br></br>
+        <b>Protocol -</b>EPC Class1 Gen2 (ISO 18000-6C), ISO 18000-6A/B<br></br>
+        <b>Antenna -</b> Inbuilt 9 dBi Circular Polarized Antenna<br></br>
+        <b>MCU -</b>Arm Cortex-M4<br></br>
+        <b>RF Power -</b> 31.5 dBm, adjustable via software<br></br>
+        <b>RF Sensitivity - </b>less than -90 dBm<br></br>
+        <b>RSSI - </b>Supported<br></br>
+        <b>Maximum Tag Read Rate - </b>700 tags/s (with 16-bit tag EPC length)<br></br>
+        <b>Tag Read Indication -</b> LED and buzzer<br></br>
+        <b>Carrier Cancellation Circuitry - </b>Enabling pre- and re-tuning<br></br>
 
 
 
@@ -94,10 +94,10 @@ Visual & Sound Indicator
       </div>
       <div id="collapse5" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Power - Red LED  <br></br>
-Inbuilt Antenna - Yellow LED<br></br>
-External Antenna - Yellow LED<br></br>
-Tag - Green LED and buzzer<br></br>
+        <b>  Power -</b> Red LED  <br></br>
+        <b>Inbuilt Antenna -</b> Yellow LED<br></br>
+        <b>External Antenna -</b> Yellow LED<br></br>
+        <b>Tag -</b> Green LED and buzzer<br></br>
 
 
 
@@ -164,7 +164,7 @@ User manual<br></br>
                         rel="noopener noreferrer"
                         download
                       >
-                        Click to download
+                    Get DataSheet
                       </a>
     
         </div>

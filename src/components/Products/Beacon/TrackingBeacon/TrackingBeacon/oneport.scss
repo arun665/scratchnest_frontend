@@ -1,5 +1,5 @@
 @media screen and (min-width:996px){
-#oneport{
+#Beacon_product{
 width:100vw;
 .header{
     background-image: url('./bg1.png');
@@ -100,7 +100,7 @@ display: none;
 
   
     
-    height:75vh;
+    margin-bottom:10vh;
     width:100vw;
 background-image: url('./bg2.png');
 background-repeat: none;
@@ -154,7 +154,7 @@ video{
 
 
 @media screen and (min-width:576px) and (max-width:996px){
-    #oneport{
+    #Beacon_product{
     width:100vw;
     .header{
         background-image: url('./bg1.png');
@@ -310,7 +310,7 @@ video{
     
 
     @media screen and (max-width:576px){
-        #oneport{
+        #Beacon_product{
         width:100%;
         .header{
             background-image: url('./bgphone.png');

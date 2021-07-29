@@ -25,10 +25,10 @@ return(<>
       </div>
       <div id="collapseOne" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Dimension - 300 X 300 X 50 mm<br></br>
-Material - Polycarbonate<br></br>
-Connector - TNC female<br></br>
-Environmental Sealing - IP-65 rating
+       <b> Dimension - </b>300 X 300 X 50 mm<br></br>
+<b>Material -</b> Polycarbonate<br></br>
+<b>Connector - </b>TNC female<br></br>
+<b>Environmental Sealing - </b>IP-65 rating
     
         </div>
       </div>
@@ -43,10 +43,10 @@ Environmental Sealing - IP-65 rating
       </div>
       <div id="collapseTwo" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Environmental Sealing - IP65 rating<br></br>
-Operating Temperature - -25 to 65 °C<br></br>
-Storage Temperature - -45 to 90 °C<br></br>
-Relative Humidity - 10% to 90%<br></br>
+        <b>  Environmental Sealing -</b> IP65 rating<br></br>
+        <b>Operating Temperature - </b>-25 to 65 °C<br></br>
+        <b>Storage Temperature - </b>-45 to 90 °C<br></br>
+        <b>Relative Humidity -</b> 10% to 90%<br></br>
         </div>
       </div>
     </div>
@@ -61,13 +61,13 @@ Relative Humidity - 10% to 90%<br></br>
       </div>
       <div id="collapse4" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Frequency - 865-868 MHz and 902-928 MHz (850-940 MHz)<br></br>
-Bandwidth - 90 MHz<br></br>
-Gain - 9 dBi<br></br>
-3 dB Beamwidth - Azimuth - 68°<br></br>
-Front to Back Ratio - 17 dB<br></br>
-Polarization - RHCP/LHCP<br></br>
-Input Impedance - 50 Ohm<br></br>
+        <b> Frequency -</b> 865-868 MHz and 902-928 MHz (850-940 MHz)<br></br>
+        <b>Bandwidth - </b>90 MHz<br></br>
+        <b>Gain - </b>9 dBi<br></br>
+        <b>3 dB Beamwidth - </b>Azimuth - 68°<br></br>
+        <b>Front to Back Ratio - </b>17 dB<br></br>
+        <b>Polarization - </b>RHCP/LHCP<br></br>
+        <b>Input Impedance - </b>50 Ohm<br></br>
 
         </div>
       </div>
@@ -125,7 +125,7 @@ User manual
                         rel="noopener noreferrer"
                         download
                       >
-                        Click to download 
+                        Get DataSheet
                       </a>
     
         </div>

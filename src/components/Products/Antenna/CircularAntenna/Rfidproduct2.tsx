@@ -9,6 +9,7 @@ import Accordion from './Accordion/accordion';
 import Video from './video/video';
 import {useEffect} from 'react';
 import {Helmet} from "react-helmet";
+
 function RfidProduct(){
 
     useEffect(() => {
@@ -17,7 +18,7 @@ function RfidProduct(){
         
       }, [])
 return(<>
-<div  id="oneport">
+<div  id="circular_product">
   <Helmet>
   <title>Circular Antenna</title>
         <meta name="description" content=" The ScratchNest far-field RFID antenna comes with a heavy-duty polycarbonate housing, possesses female TNC connectors and excellent VSWR and axial ratios." />
@@ -42,7 +43,10 @@ return(<>
 <h5> SN - CA 101</h5>
 <div className="buttondiv">
 <button className="btn btn1" >Order Now</button>
-<button className="btn  btn2">GetBrochure</button> 
+<a className="btn  btn2"   href="/Downloadfile/ir1.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download>GetBrochure</a> 
 
 </div>
      </div>
@@ -53,7 +57,7 @@ return(<>
 </div>
 <div className="buttondiv2">
 <button className="btn btn1" >Order Now</button>
-<button className="btn  btn2">GetBrochure</button> 
+<button className="btn  btn2" >GetBrochure</button> 
 
 </div>
     </div>

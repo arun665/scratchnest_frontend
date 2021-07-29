@@ -17,11 +17,11 @@ return(<>
       <div id="collapseOne" class="collapse" data-parent="#accordion">
         <div class="card-body">
     
-        Log Interval - 10 min to 19 hour <br></br>
-Start Delay - 0 min to 5 Hour <br></br>
-Time Zone - UTC - 14.00 to UTC + 14.00 <br></br>
-Low Alarm - Upto -40 °C<br></br>
-High Alarm - Upto 85 °C<br></br>
+     <b>   Log Interval -</b> 10 min to 19 hour <br></br>
+     <b> Start Delay -</b> 0 min to 5 Hour <br></br>
+     <b> Time Zone - </b>UTC - 14.00 to UTC + 14.00 <br></br>
+     <b> Low Alarm - </b>Upto -40 °C<br></br>
+     <b> High Alarm -</b> Upto 85 °C<br></br>
     
         </div>
       </div>
@@ -36,24 +36,24 @@ High Alarm - Upto 85 °C<br></br>
       </div>
       <div id="collapseTwo" class="collapse" data-parent="#accordion">
         <div class="card-body">
-        Type - Single use <br></br>
-Measurement Range -–40 °C to +85 °C<br></br>
-Accuracy - ±0.5 °C<br></br>
-Resolution - 0.25 °C<br></br>
-Memory Capacity - 13000<br></br>
-Batteryy - 3V Lithium<br></br>
-Recording Interval - 10 minutes(Customisable)<br></br>
-Recording Duration - 90 days<br></br>
-Initial Delay - 30 Mins<br></br>
-Protection Class - IP67<br></br>
-Report Secured - PDF<br></br>
-Report Type - Graphical and Tabular manner in PDF<br></br>
-Connectivity - USB 2.0<br></br>
-Alarm Type - High & Low Alarm<br></br>
-High Alarm - 8 °C(Customisable)<br></br>
-Low Alarm - 2 °C(Customisable)<br></br>
-Re-programmable - Yes<br></br>
-Shelf Life - 12 months
+        <b>  Type -</b> Single use <br></br>
+        <b>Measurement Range -</b>–40 °C to +85 °C<br></br>
+        <b>Accuracy - </b>±0.5 °C<br></br>
+        <b>Resolution -</b> 0.25 °C<br></br>
+        <b>Memory Capacity -</b> 13000<br></br>
+        <b>Batteryy - </b>3V Lithium<br></br>
+        <b>Recording Interval -</b> 10 minutes(Customisable)<br></br>
+        <b>Recording Duration - </b>90 days<br></br>
+        <b>Initial Delay - </b>30 Mins<br></br>
+        <b>Protection Class -</b> IP67<br></br>
+        <b>Report Secured - </b>PDF<br></br>
+        <b>Report Type - </b>Graphical and Tabular manner in PDF<br></br>
+        <b>Connectivity - </b>USB 2.0<br></br>
+        <b>Alarm Type - </b>High & Low Alarm<br></br>
+        <b>High Alarm -</b> 8 °C(Customisable)<br></br>
+        <b>Low Alarm - </b>2 °C(Customisable)<br></br>
+        <b>Re-programmable - </b>Yes<br></br>
+        <b>Shelf Life -</b> 12 months
     
         </div>
       </div>
@@ -76,7 +76,7 @@ Shelf Life - 12 months
                         rel="noopener noreferrer"
                         download
                       >
-                        Click to download
+                        Get DataSheet
                       </a>
     
         </div>

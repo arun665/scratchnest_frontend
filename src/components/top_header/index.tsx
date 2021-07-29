@@ -298,7 +298,7 @@ function Topheader(props: any) {
 
     <div className="col-sm-6 col-md-6 col-6">
  
-    <ul className="navbar-nav">
+    <ul className="navbar-nav rightnav">
     <Link to="/sector/datalogger" >
    
       <li className="nav-item">

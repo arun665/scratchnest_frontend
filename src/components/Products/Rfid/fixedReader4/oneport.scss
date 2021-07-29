@@ -1,5 +1,5 @@
 @media screen and (min-width:996px){
-#twoport{
+#fixedfourport_product{
 width:100vw;
 .header{
     background-image: url('./bg1.png');
@@ -107,12 +107,12 @@ display: none;
 
   
     
-    height:75vh;
+    
     width:100vw;
 background-image: url('./bg2.png');
 background-repeat: none;
 background-size: cover;
- 
+ margin-bottom:10vh;
   #img2{
       float:right;
       height:80%;
@@ -154,7 +154,7 @@ background-size: cover;
 
 
 @media screen and (min-width:576px) and (max-width:996px){
-    #twoport{
+    #fixedfourport_product{
     width:100vw;
     .header{
         background-image: url('./bg1.png');
@@ -308,7 +308,7 @@ background-size: cover;
     
 
     @media screen and (max-width:576px){
-        #twoport{
+        #fixedfourport_product{
         width:100%;
         .header{
             background-image: url('./bgphone.png');

@@ -73,7 +73,22 @@ margin-bottom: auto;
 #tempnav{
   display: none;
 }
+.rightnav{
+  float:right;
+  text-align: right;;
+  Link{
+    float:right;
+  }
+  a{
+ width:100%;
+    float:right;
+    text-align: right;
+  }
+  a:hover{
+    
+  }
 
+}
 
 
 }
