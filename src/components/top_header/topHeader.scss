@@ -6,10 +6,11 @@
   width: 100%;
   z-index: 999999;
 }
+
 @media screen and (min-width:996px){
  
 .topheader{
-
+  
 .navbar{
   background-color: #262727;
 }
@@ -73,22 +74,7 @@ margin-bottom: auto;
 #tempnav{
   display: none;
 }
-.rightnav{
-  float:right;
-  text-align: right;;
-  Link{
-    float:right;
-  }
-  a{
- width:100%;
-    float:right;
-    text-align: right;
-  }
-  a:hover{
-    
-  }
 
-}
 
 
 }
@@ -183,14 +169,20 @@ margin-bottom: auto;
     width:auto;
   }
 
-
+.phone{
+  float:left;
+}
   .navbar{
     background-color: #262727;
+  }
+  ul{
+    float: left;;
+    text-align: left;;
   }
   a{
     font-size:1em;
     color:white;
-    float:right;
+    float:left;
   }
   .logofooter{
     width:150px;

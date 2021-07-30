@@ -170,12 +170,12 @@ function Topheader(props: any) {
 
 <div className="row">
 
-<div className="col-sm-6 col-md-6 col-xs-12">
+<div className="col-sm-6 col-md-6 col-xs-12 phone">
 
-    <ul className="navbar-nav bg-dark navbar-dark">
+    <ul className="navbar-nav bg-dark navbar-dark phone">
       
-      <li className="nav-item">
-        <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+      <li className="nav-item dropdown  dropright">
+        <a className="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown" >
         RFID
       </a>
       <div className="dropdown-menu bg-dark">
@@ -206,7 +206,7 @@ function Topheader(props: any) {
       </div>
       </li>    
 
-      <li className="nav-item">
+      <li className="nav-item beacondrop dropright">
         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         Beacon
       </a>
@@ -222,7 +222,7 @@ function Topheader(props: any) {
       </li>    
 
 
-      <li className="nav-item">
+      <li className="nav-item dataloggerdrop dropright">
         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
         DataLogger
       </a>
@@ -237,7 +237,7 @@ function Topheader(props: any) {
       </div>
       </li>    
 
-      <li className="nav-item">
+      <li className="nav-item antennadrop dropright">
         <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
       Antenna
       </a>
