@@ -152,7 +152,7 @@ margin-left:10vw;
 
         .card{
         background-color: black;
-        padding:5%;
+        padding:3%;
         display: flex;
             justify-content: center;
             align-items: center;
@@ -162,7 +162,9 @@ margin-left:10vw;
             border-radius:25px;
             margin-right:10%;
             margin-top:2vh;
+            
             margin-bottom:2vh;
+
         }
         #nestedimg{
             width:40px;
@@ -342,7 +344,9 @@ background-size: cover;
         .card{
         background-color: black;
         padding:2%;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
             width: 100%;
             border-radius:25px;
             height: 20vh;
@@ -480,7 +484,7 @@ background-size: cover;
   
     
     height:80vh;
-    width:100vw;
+    width:90%;
 background-image: url('./bg2.png');
 background-repeat: none;
 background-size: cover;
@@ -500,17 +504,21 @@ background-size: cover;
       text-align: left;;
       
 
+      
       width:100%;
-      margin-left:5%;
-      margin-right:5%;
+      
+      
       h1{
+        
           font-size:1.8em;
           font-weight: bolder;
 
       }
   p{
+      
       font-size:0.9em;
       text-align: left;;
+      text-align: justify;
       
   }
     }
@@ -550,7 +558,9 @@ background-size: cover;
         .card{
         background-color: black;
         padding:2%;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
             width: 100%;
             border-radius:25px;
             height: 20vh;
