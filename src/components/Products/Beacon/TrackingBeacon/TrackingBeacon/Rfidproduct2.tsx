@@ -42,7 +42,7 @@ return(<>
 
 <h5> SN - TB 101</h5>
 <div className="buttondiv">
-<button className="btn btn1" >Order Now</button>
+<button className="btn btn1" >Coming Soon</button>
 <button className="btn  btn2">GetBrochure</button> 
 
 </div>
@@ -53,7 +53,7 @@ return(<>
 <img src={oneportimg} id="img1"></img>
 </div>
 <div className="buttondiv2">
-<button className="btn btn1" >Order Now</button>
+<button className="btn btn1" >Coming soon</button>
 <button className="btn  btn2">GetBrochure</button> 
 
 </div>

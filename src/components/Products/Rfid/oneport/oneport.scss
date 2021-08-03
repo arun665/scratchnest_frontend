@@ -106,15 +106,19 @@ background-image: url('./bg2.png');
 background-repeat: none;
 background-size: cover;
  
-  #img2{
-      float:right;
-      height:80%;
-      
-      width:80%;
-      border-radius: 50px;;
-     margin-top:15vh;;
-      border-radius: 50px;;
+#myCarousel{
+    margin-top: 20vh;;
+    padding-top:5%;
+    width:80%; float:right;
  
+}
+  #img2{
+    
+      
+      width:95%;
+      margin-left:2%;
+      margin-right: 2%;
+ border-radius: 25px;;
 
   }
   #para1{
@@ -261,15 +265,19 @@ video{
 background-image: url('./bg2.png');
 background-repeat: none;
 background-size: cover;
+#myCarousel{
+    margin-top: 10vh;;
+    padding-top:5%;
+    width:90%; float:right;
  
+}
   #img2{
-      float:right;
-      height:80%;
-      width:100%;
-      border-radius: 50px;;
-     margin-top:7vh;;
-      border-radius: 50px;;
- 
+    
+      
+      width:95%;
+      margin-left:2%;
+      margin-right: 2%;
+ border-radius: 25px;;
 
   }
   #para1{
@@ -457,7 +465,10 @@ background-size: cover;
     }
 
 }
-
+ 
+#myCarousel{
+display: none;
+}
 video{
     
     width:100%;

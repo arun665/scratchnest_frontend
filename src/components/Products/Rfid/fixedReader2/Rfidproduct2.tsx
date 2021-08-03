@@ -44,7 +44,7 @@ return(<>
 <h4>2 - Port Reader</h4>
 <h5> SN - FR 201</h5>
 <div className="buttondiv">
-<button className="btn btn1" >Order Now</button>
+<button className="btn btn1" >Coming Soon</button>
 <button className="btn  btn2">GetBrochure</button> 
 
 </div>
@@ -55,7 +55,7 @@ return(<>
 <img src={oneportimg} id="img1"></img>
 </div>
 <div className="buttondiv2">
-<button className="btn btn1" >Order Now</button>
+<button className="btn btn1" >Coming Soon</button>
 <button className="btn  btn2">GetBrochure</button> 
 
 </div>

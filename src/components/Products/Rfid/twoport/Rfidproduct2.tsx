@@ -4,6 +4,10 @@ import './oneport.scss';
 import oneportimg from './Twoport.png';
 import img3 from './Twoportimg2.png';
 import Boxes from './boxes/boxes';
+import c1 from './c1.png';
+import c2 from './c2.png';
+import c3 from './c3.png';
+
 import Boxes2 from './boxes2/boxes2';
 import Accordion from './Accordion/accordion';
 import Video from './video/video';
@@ -42,7 +46,7 @@ return(<>
 <h4>2 - Port Reader</h4>
 <h5> SN - IR 201</h5>
 <div className="buttondiv">
-<button className="btn btn1" >Order Now</button>
+<button className="btn btn1" >Coming Soon</button>
 <button className="btn  btn2">GetBrochure</button> 
 
 </div>
@@ -53,7 +57,7 @@ return(<>
 <img src={oneportimg} id="img1"></img>
 </div>
 <div className="buttondiv2">
-<button className="btn btn1" >Order Now</button>
+<button className="btn btn1" >Coming Soon</button>
 <button className="btn  btn2">GetBrochure</button> 
 
 </div>
@@ -69,7 +73,41 @@ return(<>
 <div className="container-fluid" id="div2">
       <div className="row">
         <div className="col-md-6 col-sm-6 col-xs-12">
-     <img src={img3} id="img2" className="desktopimg"/>
+     
+     
+     
+     {/*<img src={img3} id="img2" className="desktopimg"/>*/}
+
+
+
+
+     <div id="myCarousel" className="carousel slide" data-ride="carousel">
+
+  
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={c1}  id="img2"  alt="Los Angeles" />
+    </div>
+    <div className="carousel-item">
+      <img src={c2}  id="img2"  alt="Chicago" />
+    </div>
+    <div className="carousel-item">
+      <img src={c3}  id="img2"  alt="New York" />
+    </div>
+  </div>
+  
+  <a className="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span className="carousel-control-prev-icon"></span>
+  </a>
+  <a className="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span className="carousel-control-next-icon"></span>
+  </a>
+  
+</div>
+
+
+
+
         </div>
         <div className="col-md-6 col-sm-6 col-xs-12">
          
