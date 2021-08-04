@@ -155,10 +155,11 @@ function Topheader(props: any) {
       </li>        
      </Link>     
     </ul>
-
+    
+    <Link to="/register"> 
     <button className="btn btn-outline-primary" onClick={() => setOpen(!open)} id="btn"> Cart</button>
-
-
+</Link>
+    
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -299,7 +300,7 @@ function Topheader(props: any) {
     <div className="col-sm-6 col-md-6 col-6">
  
     <ul className="navbar-nav rightnav">
-    <Link to="/sector/datalogger" >
+    <Link to="/register" >
    
       <li className="nav-item">
         <a className="nav-link" href="#">Cart</a>

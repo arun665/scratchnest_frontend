@@ -30,7 +30,7 @@ import LinearAntenna from './components/Products/Antenna/LinearAntenna/Rfidprodu
 
 import FixedReader_Two from "./components/Products/Rfid/fixedReader2/Rfidproduct2";
 import Error from './components/Error/error';
-
+import Register from './components/Registration/Register';
 import FixedReader_Four from "./components/Products/Rfid/fixedReader4/Rfidproduct2";
 
 
@@ -84,6 +84,7 @@ function App() {
               <Route component={HomeSector} exact path="/" />
               <Route component={DataLoggerSec} exact path="/sector/datalogger" />
               <Route component={RfidSec} path="/sector/RFID" exact/>
+              <Route component={Register} path="/register" exact/>
               
               <Route component={EducationSec} path="/sector/Education" exact/>
               
