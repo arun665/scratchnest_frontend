@@ -30,10 +30,13 @@ import LinearAntenna from './components/Products/Antenna/LinearAntenna/Rfidprodu
 
 import FixedReader_Two from "./components/Products/Rfid/fixedReader2/Rfidproduct2";
 import Error from './components/Error/error';
-import Register from './components/Registration/Register';
+import Register from './components/Registration/Register.js';
 import FixedReader_Four from "./components/Products/Rfid/fixedReader4/Rfidproduct2";
 
 
+import {Provider} from 'react-redux';
+
+import store from './redux/store';
 
 
 
@@ -74,6 +77,7 @@ function App() {
 
   return (
     <>
+       <Provider store={store}>
       <div className="App" >
         {loading == true ? (
           <Splashscreen />
@@ -105,6 +109,7 @@ function App() {
           </Router>
         )}
       </div>
+      </Provider>
     </>
   );
 }

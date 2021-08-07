@@ -6,6 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Provider} from 'react-redux';
+
+import store from './redux/store';
 
 import Topheader from "./components/top_header/index";
 
