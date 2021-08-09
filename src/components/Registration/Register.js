@@ -13,8 +13,9 @@ import {connect} from 'react-redux';
 import {AddPassCat , AddMessage , Disappear} from '../../redux/action/PassAction.js';
 import success from './success.png';
 import error from './error.png';
-
+var Recaptcha = require('react-recaptcha');
 const eye = <FontAwesomeIcon icon={faEye} />;
+
 
 function Register(props){
   const [loader,setLoader]=useState(false);
@@ -26,7 +27,15 @@ const handleErrorShow=()=> setErrorShow(true);
   const onLoginFormSubmit = (e) => {
     e.preventDefault();
   };
-
+  var callback = function () {
+    console.log('Done!!!!');
+  };
+   
+  var verifyCallback = function (response) {
+    console.log(response);
+  };
+  
+  
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -93,6 +102,12 @@ var l=     <BarLoader  color="#1FD9F3"  size={150} />;
       const [address,setAddress]=useState('');
       const [city,setCity]=useState('');
       const [pincode,setPincode]=useState('');
+
+
+      
+    
+    
+  
 
 return(<>
 
@@ -186,9 +201,13 @@ return(<>
   </div>
 
   <div className="form-group">
-  
- <button type="button" className="btn btn-outline-primary" onClick={fetchData}  > Submit </button>
+  <Recaptcha
+    sitekey="6LctfO0bAAAAAGbBUJ6X7HtCR1I9ISjrjbGXT1Z1"
+ 
+  />
+ <button type="button" className="btn btn-outline-primary" disabled={loader} onClick={fetchData}  > Submit </button>
   </div>
+
 </form>
 {/*disabled={loader} */ } 
 
