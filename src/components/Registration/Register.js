@@ -114,7 +114,10 @@ var l=     <BarLoader  color="#1FD9F3"  size={150} />;
       // specifying verify callback function
       var verifyCallback =  (response) => {
         console.log(response);
-        setCaptcha(true);
+        setCaptcha(!captcha);
+
+    
+
       };
     
     

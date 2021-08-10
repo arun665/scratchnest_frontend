@@ -17,7 +17,7 @@ export const AddPassCat=(username,fullname,contact_no,email,address,city,pincode
     return function(dispatch){
     
     var OPTIONS = {
-        url: "https://scratchnestserver.herokuapp.com/register/",
+        url: " https://scratchnestserver.herokuapp.com/register/",
         method: "POST",
         data:{username:username,name:fullname,contact_no:contact_no,email:email,profile:"NaN",password:password,street_add:address,city:city,pin:pincode},
         headers: {
@@ -30,7 +30,9 @@ axios(OPTIONS)
 .then(res=>{
 var result=res.data.message;
 
-
+if(result=="error occured in sending mail"){
+    console.log(res.data.err);
+}
 
 dispatch({
 type:ADD_PASSCAT,
