@@ -31,6 +31,10 @@ const passReducer=(state=initialState,action)=>{
             ...state,
             message:""
         }
+        case "CAPTCHAERROR":return{
+            ...state,
+            message:"firstly , Proof that you are not a robot"
+        }
 
 
 

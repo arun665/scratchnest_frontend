@@ -10,10 +10,13 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { Modal, Button, Form } from "react-bootstrap";
 import {connect} from 'react-redux';
-import {AddPassCat , AddMessage , Disappear} from '../../redux/action/PassAction.js';
+import {AddPassCat , AddMessage , Disappear,captchaError} from '../../redux/action/PassAction.js';
 import success from './success.png';
+import ReCAPTCHA from "react-google-recaptcha";
+
 import error from './error.png';
-var Recaptcha = require('react-recaptcha');
+const Recaptcha = require('react-recaptcha');
+
 const eye = <FontAwesomeIcon icon={faEye} />;
 
 
@@ -21,20 +24,14 @@ function Register(props){
   const [loader,setLoader]=useState(false);
   const [show, setShow] = useState(false);
   const [errorshow, setErrorShow] = useState(false);
-
+const [captcha,setCaptcha]=useState(false);
   const handleShow = () => setShow(true);
 const handleErrorShow=()=> setErrorShow(true);
   const onLoginFormSubmit = (e) => {
     e.preventDefault();
   };
-  var callback = function () {
-    console.log('Done!!!!');
-  };
    
-  var verifyCallback = function (response) {
-    console.log(response);
-  };
-  
+
   
 
     useEffect(() => {
@@ -85,9 +82,15 @@ var l=     <BarLoader  color="#1FD9F3"  size={150} />;
        
       
       const fetchData = ()=>{
+             
+        if(!captcha){
+          props.captchaError();
+        }
+        else{
+
         setLoader(true);
         props.addPassCat(username,fullname,contact_no,email,address,city,pincode,password)
-      
+        }
      
         
       }
@@ -104,7 +107,15 @@ var l=     <BarLoader  color="#1FD9F3"  size={150} />;
       const [pincode,setPincode]=useState('');
 
 
-      
+      var callback = () => {
+        console.log('Done!!!!');
+      };
+       
+      // specifying verify callback function
+      var verifyCallback =  (response) => {
+        console.log(response);
+        setCaptcha(true);
+      };
     
     
   
@@ -199,12 +210,15 @@ return(<>
       <input type="number"  className="form-control" placeholder="Pincode" name="pswd" value={pincode}  onChange={ e=>(setPincode(e.target.value))}/>
     </div>
   </div>
-
-  <div className="form-group">
-  <Recaptcha
-    sitekey="6LctfO0bAAAAAGbBUJ6X7HtCR1I9ISjrjbGXT1Z1"
- 
+  <div className="form-group" style={{"padding-top":"5%"}}>
+    <ReCAPTCHA 
+      sitekey="6Lfnv_AbAAAAAOq8DUN79aJhPC5fP_aSdQUGQF3D"    render="explicit"
+    onChange={verifyCallback} 
+      onLoad={callback}
   />
+  </div>
+  <div className="form-group">
+  
  <button type="button" className="btn btn-outline-primary" disabled={loader} onClick={fetchData}  > Submit </button>
   </div>
 
@@ -247,6 +261,9 @@ const mapStatetoProps=(state)=>{
           },
           Disappear:function(){
             dispatch(Disappear())
+          },
+          captchaError:function(){
+            dispatch(captchaError())
           }
   
   

@@ -6,7 +6,9 @@ export const Disappear=()=>{
     return{type:"DISAPPEAR"}
 }
 
-
+export const captchaError=()=>{
+    return{type:"CAPTCHAERROR"}
+}
 
 
 export const AddPassCat=(username,fullname,contact_no,email,address,city,pincode,password)=>{
@@ -15,7 +17,7 @@ export const AddPassCat=(username,fullname,contact_no,email,address,city,pincode
     return function(dispatch){
     
     var OPTIONS = {
-        url: "https://scratchnestserver.herokuapp.com/register",
+        url: "https://scratchnestserver.herokuapp.com/register/",
         method: "POST",
         data:{username:username,name:fullname,contact_no:contact_no,email:email,profile:"NaN",password:password,street_add:address,city:city,pin:pincode},
         headers: {
