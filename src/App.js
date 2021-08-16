@@ -19,7 +19,8 @@ import EducationSec from "./components/Sector/Education/Education";
 import BeaconSec from "./components/Sector/Beacon/Beacon";
 
 import RfidSec from './components/Sector/RFID/Rfid';
-import Cart from './components/Cart/Cart';
+import Cart from './components/Cart/temp';
+import Temp2 from './components/Cart/temp';
 
 import Dataloggern from "./components/Products/Dataloggern/Dataloggern";
 import Twoport_Rfid from "./components/Products/Rfid/twoport/Rfidproduct2";
@@ -38,7 +39,7 @@ import {Provider} from 'react-redux';
 
 import store from './redux/store';
 
-
+import Temp from './components/temp/temp'
 
 
 function App() {
@@ -93,6 +94,9 @@ function App() {
               <Route component={EducationSec} path="/sector/Education" exact/>
               
               <Route component={Cart} path="/cart" exact/>
+              <Route component={Temp2} path="/temp2" exact/>
+              
+              <Route component={Temp} path="/temp" exact/>
               
               <Route component={Dataloggern} path="/products/logger" exact/>
               <Route component={OnePort_Rfid} path="/products/Rfid/oneport" exact/>

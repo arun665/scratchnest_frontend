@@ -78,6 +78,18 @@ return(<>
                       >
                         Get DataSheet
                       </a>
+                      <br></br>
+                      <a
+                        href="/Downloadfile/ambitagsoftware.exe"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
+                      >
+                        Get Ambitag Software
+                      </a>
+
+                      
+
     
         </div>
       </div>
